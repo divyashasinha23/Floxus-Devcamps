@@ -62,6 +62,7 @@ const USPContainer = styled.div`
 
       .heading {
         font-size: 25px;
+        padding-right: 0;
       }
     }
   }
