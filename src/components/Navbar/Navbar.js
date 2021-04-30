@@ -5,10 +5,11 @@ import DevcampLogo from '../../images/mainLogo.png';
 const NavbarWrapper = styled.div`
   display: flex;
   width: 100%;
-  height: 7vh;
+  height: 8vh;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 4px 4px #eae9eb;
+  box-shadow: 0px 4px 4px #f3f6fa;
+  margin-bottom: 10px;
 `;
 
 const NavbarContainer = styled.div`
@@ -39,6 +40,12 @@ const NavbarContainer = styled.div`
       color: black;
       cursor: pointer;
       margin-right: 25px;
+    }
+  }
+
+  @media (max-width: 496px) {
+    .rightNav {
+      display: none;
     }
   }
 `;
