@@ -48,12 +48,13 @@ const USPContainer = styled.div`
     flex-direction: column;
     height: auto;
     margin-top: 10%;
+    width: 80%;
 
     .left {
       height: auto;
 
       img {
-        width: 100%;
+        width: 90%;
       }
     }
 
