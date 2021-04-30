@@ -85,7 +85,7 @@ const HeroSection = () => {
           </p>
         </HeroContent>
         <PolygonContainer>
-          <img className="polygon2" src={Polygon1} alt="pattern1" />
+          <img className="polygon2" src={Polygon2} alt="pattern1" />
         </PolygonContainer>
       </HeroContainer>
     </Layout>
