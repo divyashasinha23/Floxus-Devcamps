@@ -5,7 +5,7 @@ import Card from '../Card/Card';
 
 const ResourceContainer = styled.div`
   background-color: #fafafa;
-  height: 92vh;
+  height: 98vh;
 `;
 
 const ResourceDetail = styled.div`
@@ -13,6 +13,7 @@ const ResourceDetail = styled.div`
   flex-direction: row;
   flex-wrap: row-wrap;
   align-items: center;
+  justify-content: center;
   align-content: flex-start;
 `;
 

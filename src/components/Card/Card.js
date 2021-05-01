@@ -2,16 +2,16 @@ import React from 'react';
 import styled from 'styled-components';
 
 const CardContainer = styled.div`
-  width: 320px;
+  width: 300px;
   height: 370px;
-  border: 1.5px solid #d3d3d3;
   box-sizing: border-box;
   align-items: center;
-  margin: 15px auto;
+  margin: 30px;
   display: flex;
-  margin-top: 70px;
+  margin-top: 40px;
   flex-flow: row wrap;
   background-color: #fff;
+  border: 1px solid #D3D4D6;
 `;
 
 const CardItem = styled.div`
@@ -23,7 +23,7 @@ const CardItem = styled.div`
   flex-direction: column;
 
   .Heading {
-    font-size: 20px;
+    font-size: 19px;
     text-align: center;
     color: #020b3d;
     letter-spacing: -0.5px;
@@ -34,7 +34,7 @@ const CardItem = styled.div`
   .description {
     text-align: center;
     width: 85%;
-    color: #787878;
+    color: #827FA5;
     font-size: 12px;
     margin-bottom: 20px;
   }
@@ -43,7 +43,7 @@ const CardItem = styled.div`
     width: 200px;
     height: 40px;
     margin-bottom: 20px;
-    background-color: #4066e0;
+    background-color: #8155FF;
     color: #ffff;
     font-size: 15px;
     border: none;
