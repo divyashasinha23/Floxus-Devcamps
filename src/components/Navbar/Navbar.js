@@ -5,7 +5,7 @@ import DevcampLogo from '../../images/mainLogo.png';
 const NavbarWrapper = styled.div`
   display: flex;
   width: 100%;
-  height: 8vh;
+  height: 10vh;
   justify-content: center;
   align-items: center;
   box-shadow: 0px 4px 4px #f3f6fa;
@@ -24,7 +24,7 @@ const NavbarContainer = styled.div`
     height: auto;
 
     img {
-      height: 40px;
+      height: 60px;
     }
   }
 
