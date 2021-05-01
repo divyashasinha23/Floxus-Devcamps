@@ -3,45 +3,43 @@ import Resources from '../Resources/Resources';
 import styled from 'styled-components';
 import Card from '../Card/Card';
 
-
 const ResourceContainer = styled.div`
-background-color: #f5f5f5;
-`
-
+  background-color: #fafafa;
+  height: 92vh;
+`;
 
 const ResourceDetail = styled.div`
-display: flex;
-flex-direction: row;
-flex-wrap: row-wrap;
-align-items: center;
-align-content: flex-start;
-`
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: row-wrap;
+  align-items: center;
+  align-content: flex-start;
+`;
 
 function DataStructure() {
-    return (
-        <>
-        <ResourceContainer>
-            <Resources 
-            Heading= 'DATA STRUCTURES RESOURCES'
-            Description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod. Lorem ipsum dolor sit amet se'
-            /> 
-            <ResourceDetail >
-            <Card 
-            label= 'LEARN'
-            description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod.'
-            />
-            <Card 
-            label = 'INTERVIEW PREPARATION'
-            description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod.'
-            />
-            </ResourceDetail>
-            </ResourceContainer>
-        </>
-    )
+  return (
+    <>
+      <ResourceContainer>
+        <Resources
+          Heading="DATA STRUCTURES RESOURCES"
+          Description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod. Lorem ipsum dolor sit amet se"
+        />
+        <ResourceDetail>
+          <Card
+            label="LEARN"
+            description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod."
+          />
+          <Card
+            label="INTERVIEW PREPARATION"
+            description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod."
+          />
+        </ResourceDetail>
+      </ResourceContainer>
+    </>
+  );
 }
 
-export default DataStructure
+export default DataStructure;

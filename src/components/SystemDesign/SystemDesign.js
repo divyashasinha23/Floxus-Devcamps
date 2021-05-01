@@ -2,22 +2,23 @@ import React from 'react';
 import Resources from '../Resources/Resources';
 import styled from 'styled-components';
 
-
 const ResourceContainer = styled.div`
-background-color: #f5f5f5;`
+  background-color: #fafafa;
+  height: 92vh;
+`;
 
 function SystemDesign() {
-    return (
-        <>
-         <ResourceContainer>
-        <Resources 
-        Heading= 'System Design Resources'
-        Description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-        nonumy eirmod. Lorem ipsum dolor sit amet se'
-        /> 
-        </ResourceContainer>
+  return (
+    <>
+      <ResourceContainer>
+        <Resources
+          Heading="System Design Resources"
+          Description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod. Lorem ipsum dolor sit amet se"
+        />
+      </ResourceContainer>
     </>
-    )
+  );
 }
 
-export default SystemDesign
+export default SystemDesign;

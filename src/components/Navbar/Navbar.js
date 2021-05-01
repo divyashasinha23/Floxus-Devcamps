@@ -5,17 +5,17 @@ import DevcampLogo from '../../images/mainLogo.png';
 const NavbarWrapper = styled.div`
   display: flex;
   width: 100%;
-  height: 10vh;
+  height: 8vh;
   justify-content: center;
   align-items: center;
   box-shadow: 0px 4px 4px #f3f6fa;
-  margin-bottom: 10px;
+  border-bottom: 1px solid #d3d4d6;
 `;
 
 const NavbarContainer = styled.div`
   display: flex;
   width: 85%;
-  height: 7vh;
+  height: 8vh;
   align-items: center;
 
   .leftNav {
