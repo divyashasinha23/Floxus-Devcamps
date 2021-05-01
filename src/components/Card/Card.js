@@ -56,6 +56,7 @@ function Card(props) {
         <>
         <CardContainer> 
           <CardItem>
+            <p className="description">{props.name}</p>
               <h1 className="Heading">
                   {props.label}
               </h1>

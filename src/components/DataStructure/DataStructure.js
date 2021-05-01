@@ -29,6 +29,9 @@ function DataStructure() {
             /> 
             <ResourceDetail >
             <Card 
+            name= "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod."
             label= 'LEARN'
             description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod.'
