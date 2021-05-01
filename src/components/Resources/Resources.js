@@ -18,11 +18,12 @@ object-fit: contain;
   }
 
   .Heading {
+    
     font-size: 30px;
     font-weight: 700;
     width: 40%;
     text-align: center;
-    color: #020b3d;
+    color: #020B3D;
     letter-spacing: -0.5px;
     margin-bottom: 5px;
   }
@@ -30,7 +31,7 @@ object-fit: contain;
   .Description {
     text-align: center;
     width: 50%;
-    color: #787878;
+    color: #827FA5;
     font-size: 15px;
   }
 `
