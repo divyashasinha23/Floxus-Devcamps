@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import  {Link} from 'react-router-dom';
 
 const CardContainer = styled.div`
   width: 300px;
@@ -24,6 +25,7 @@ const CardItem = styled.div`
 
   .Heading {
     font-size: 19px;
+    font-weight: 600px;
     text-align: center;
     color: #020b3d;
     letter-spacing: -0.5px;
@@ -38,6 +40,11 @@ const CardItem = styled.div`
     font-size: 12px;
     margin-bottom: 20px;
   }
+
+  .image_icon {
+    width: 100px;
+  }
+
 
   .btn {
     width: 200px;
@@ -55,9 +62,12 @@ function Card(props) {
     <>
       <CardContainer>
         <CardItem>
+          <img className="image_icon" src= {props.image} alt="resouces_icon"/>
           <h1 className="Heading">{props.label}</h1>
           <p className="description">{props.description}</p>
+          <Link to={props.url}>
           <button className="btn">EXPLORE</button>
+          </Link>
         </CardItem>
       </CardContainer>
     </>
