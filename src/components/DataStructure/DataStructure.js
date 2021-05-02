@@ -7,7 +7,6 @@ import interviewicon from '../../images/interviewicon.png'
 
 const ResourceContainer = styled.div`
   background-color: #fafafa;
-  height: 98vh;
 `;
 
 const ResourceDetail = styled.div`
@@ -17,6 +16,10 @@ const ResourceDetail = styled.div`
   align-items: center;
   justify-content: center;
   align-content: flex-start;
+
+  @media (max-width: 496px) {
+    flex-direction: column;
+  }
 `;
 
 function DataStructure() {
