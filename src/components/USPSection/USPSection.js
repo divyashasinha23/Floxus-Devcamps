@@ -65,6 +65,10 @@ const USPContainer = styled.div`
         font-size: 25px;
         padding-right: 0;
       }
+
+      .description {
+        font-size: 14px;
+      }
     }
   }
 `;

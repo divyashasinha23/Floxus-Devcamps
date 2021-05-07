@@ -66,6 +66,14 @@ const HeroContent = styled.div`
 
   @media (max-width: 496px) {
     width: 80%;
+
+    .heading {
+      font-size: 30px;
+    }
+
+    .description {
+      font-size: 14px;
+    }
   }
 `;
 
