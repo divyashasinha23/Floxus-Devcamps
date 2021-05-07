@@ -32,8 +32,8 @@ const BannerArea = styled.div`
   align-items: center;
 
   @media (max-width: 496px) {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 `;
 
@@ -57,10 +57,10 @@ const BannerContent = styled.div`
       margin-bottom: 5px;
       padding-right: 30px;
       align-items: center;
+    }
 
-      .heart {
-        height: 34px;
-      }
+    img {
+      margin-left: 7px;
     }
     .description {
       font-size: 15px;
@@ -93,6 +93,12 @@ const BannerContent = styled.div`
 
       .description {
         font-size: 13px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      img {
+        margin-left: 4px;
       }
     }
 
@@ -100,6 +106,7 @@ const BannerContent = styled.div`
       img {
         width: 60%;
         margin-bottom: 10%;
+        margin-top: 10px;
       }
     }
   }
@@ -115,7 +122,7 @@ const Banner = () => {
               <div className="left">
                 <div className="heading">
                   <span>Crafted with &#10084;&#65039; by</span>
-                  <img src={Logo} style={{ marginLeft: '8px' }} alt="logo" />
+                  <img src={Logo} alt="logo" />
                 </div>
                 <p className="description">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
