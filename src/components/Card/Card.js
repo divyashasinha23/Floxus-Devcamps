@@ -54,6 +54,11 @@ const CardItem = styled.div`
     color: #ffff;
     font-size: 15px;
     border: none;
+
+    @media (max-width: 590px) {
+      width: 150px;
+      
+    }
   }
 `;
 

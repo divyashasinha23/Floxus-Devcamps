@@ -17,8 +17,7 @@ object-fit: contain;
     flex-direction: column;
   }
 
-  .Heading {
-    
+  .Heading { 
     font-size: 30px;
     font-weight: 700;
     width: 40%;
@@ -26,6 +25,11 @@ object-fit: contain;
     color: #020B3D;
     letter-spacing: -0.5px;
     margin-bottom: 5px;
+
+    @media (max-width: 496px) {
+       width: 60%;
+      flex-direction: column;
+    }
   }
 
   .Description {
@@ -33,6 +37,11 @@ object-fit: contain;
     width: 50%;
     color: #827FA5;
     font-size: 15px;
+
+    @media (max-width: 496px) {
+      width: 65%;
+      flex-direction: column;
+    }
   }
 `
 
