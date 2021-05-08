@@ -54,6 +54,7 @@ const CardItem = styled.div`
     color: #ffff;
     font-size: 15px;
     border: none;
+    cursor: pointer;
 
     @media (max-width: 590px) {
       width: 150px;
