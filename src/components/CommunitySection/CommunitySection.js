@@ -10,6 +10,10 @@ const CommunityContainer = styled.div`
   height: auto;
   justify-content: center;
   align-items: center;
+
+  a {
+    text-decoration: none;
+  }
 `;
 
 const CommunityWrapper = styled.div`
@@ -49,6 +53,10 @@ const CategoryChipWrapper = styled.div`
   display: flex;
   width: 95%;
   height: 88%;
+
+  a {
+    text-decoration: none;
+  }
 `;
 
 const ImageContainer = styled.div`
@@ -86,38 +94,44 @@ const CommunitySection = () => {
     <>
       <CommunityContainer>
         <CommunityWrapper>
-          <CategoryChipContainer>
-            <CategoryChipWrapper>
-              <ImageContainer>
-                <img src={communityLogo} alt="community" />
-              </ImageContainer>
-              <ContentContainer>
-                <p className="heading">Join Community &rarr;</p>
-              </ContentContainer>
-            </CategoryChipWrapper>
-          </CategoryChipContainer>
+          <a href="https://discord.gg/PV5f6aqA2w">
+            <CategoryChipContainer>
+              <CategoryChipWrapper>
+                <ImageContainer>
+                  <img src={communityLogo} alt="community" />
+                </ImageContainer>
+                <ContentContainer>
+                  <p className="heading">Join Community &rarr;</p>
+                </ContentContainer>
+              </CategoryChipWrapper>
+            </CategoryChipContainer>
+          </a>
 
-          <CategoryChipContainer>
-            <CategoryChipWrapper>
-              <ImageContainer>
-                <img src={courseLogo} alt="course" />
-              </ImageContainer>
-              <ContentContainer>
-                <p className="heading">Join Our Courses &rarr;</p>
-              </ContentContainer>
-            </CategoryChipWrapper>
-          </CategoryChipContainer>
+          <a href="https://floxus.co/">
+            <CategoryChipContainer>
+              <CategoryChipWrapper>
+                <ImageContainer>
+                  <img src={courseLogo} alt="course" />
+                </ImageContainer>
+                <ContentContainer>
+                  <p className="heading">Join Our Courses &rarr;</p>
+                </ContentContainer>
+              </CategoryChipWrapper>
+            </CategoryChipContainer>
+          </a>
 
-          <CategoryChipContainer>
-            <CategoryChipWrapper>
-              <ImageContainer>
-                <img src={youtubeLogo} alt="youtube" />
-              </ImageContainer>
-              <ContentContainer>
-                <p className="heading">Join YouTube Series &rarr;</p>
-              </ContentContainer>
-            </CategoryChipWrapper>
-          </CategoryChipContainer>
+          <a href="https://www.youtube.com/channel/UC1ZPrl9xMMdBusNXoK3Gf4w">
+            <CategoryChipContainer>
+              <CategoryChipWrapper>
+                <ImageContainer>
+                  <img src={youtubeLogo} alt="youtube" />
+                </ImageContainer>
+                <ContentContainer>
+                  <p className="heading">Join YouTube Series &rarr;</p>
+                </ContentContainer>
+              </CategoryChipWrapper>
+            </CategoryChipContainer>
+          </a>
         </CommunityWrapper>
       </CommunityContainer>
     </>

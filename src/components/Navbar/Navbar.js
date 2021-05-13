@@ -67,6 +67,7 @@ const Button = styled.button`
   color: white;
   font-size: 15px;
   font-weight: 500;
+  cursor: pointer;
 `;
 
 const Navbar = () => {
@@ -84,7 +85,9 @@ const Navbar = () => {
             <a href="https://www.notion.so/Contribute-350d7244938146e9a8aadb3cd1074204">
               <p>Contribute</p>
             </a>
-            <Button>Join Community</Button>
+            <a href="https://discord.gg/PV5f6aqA2w">
+              <Button>Join Community</Button>
+            </a>
           </div>
         </NavbarContainer>
       </NavbarWrapper>
