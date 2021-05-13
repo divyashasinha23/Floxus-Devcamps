@@ -132,7 +132,7 @@ const BrowseSection = () => {
               </CategoryChipContainer>
             </Link>
 
-            <Link to="" className="link">
+            <Link to="/frontend-dev" className="link">
               <CategoryChipContainer>
                 <CategoryChipWrapper>
                   <ImageContainer>

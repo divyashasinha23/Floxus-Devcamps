@@ -72,9 +72,9 @@ const ContentContainer = styled.div`
   justify-content:center;
   align-items:center;
 
-  .title {
+  .heading{
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 500;
     color: #020b3d;
     letter-spacing: -0.5px;
     margin-left: 5px;s

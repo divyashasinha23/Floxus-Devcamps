@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import DevcampLogo from '../../images/mainLogo.png';
 
@@ -24,7 +25,7 @@ const NavbarContainer = styled.div`
     height: auto;
 
     img {
-      height: 60px;
+      height: 50px;
     }
   }
 
@@ -35,8 +36,12 @@ const NavbarContainer = styled.div`
     justify-content: flex-end;
     align-items: center;
 
+    a {
+      text-decoration: none;
+    }
+
     p {
-      font-size: 16px;
+      font-size: 15px;
       color: black;
       cursor: pointer;
       margin-right: 25px;
@@ -58,7 +63,7 @@ const Button = styled.button`
   background: #fd5b05;
   height: 40px;
   width: 150px;
-  border-radius: 20px;
+  border-radius: 5px;
   color: white;
   font-size: 15px;
   font-weight: 500;
@@ -71,10 +76,14 @@ const Navbar = () => {
         <NavbarContainer>
           <div className="leftNav">
             {' '}
-            <img src={DevcampLogo} alt="Devcamp Logo" />{' '}
+            <Link to="/">
+              <img src={DevcampLogo} alt="Devcamp Logo" />
+            </Link>
           </div>
           <div className="rightNav">
-            <p>Contribute</p>
+            <a href="https://www.notion.so/Contribute-350d7244938146e9a8aadb3cd1074204">
+              <p>Contribute</p>
+            </a>
             <Button>Join Community</Button>
           </div>
         </NavbarContainer>
