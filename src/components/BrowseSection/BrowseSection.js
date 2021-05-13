@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import dataLogo from '../../images/datastructure.png';
 import frontendLogo from '../../images/frontendDev.png';
@@ -44,9 +45,12 @@ const CategoryContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 30px;
-  ${'' /* background-color: black; */}
 
-  @media(max-width:496px) {
+  .link {
+    text-decoration: none;
+  }
+
+  @media (max-width: 496px) {
     margin-top: 10px;
   }
 `;
@@ -115,27 +119,31 @@ const BrowseSection = () => {
             <Heading>Browse Topics</Heading>
           </Header>
           <CategoryContainer>
-            <CategoryChipContainer>
-              <CategoryChipWrapper>
-                <ImageContainer>
-                  <img src={dataLogo} alt="logo" />
-                </ImageContainer>
-                <ContentContainer>
-                  <p className="title">Data Structure & Algo</p>
-                </ContentContainer>
-              </CategoryChipWrapper>
-            </CategoryChipContainer>
+            <Link className="link" to="/data-structures">
+              <CategoryChipContainer>
+                <CategoryChipWrapper>
+                  <ImageContainer>
+                    <img src={dataLogo} alt="logo" />
+                  </ImageContainer>
+                  <ContentContainer>
+                    <p className="title">Data Structure & Algo</p>
+                  </ContentContainer>
+                </CategoryChipWrapper>
+              </CategoryChipContainer>
+            </Link>
 
-            <CategoryChipContainer>
-              <CategoryChipWrapper>
-                <ImageContainer>
-                  <img src={frontendLogo} alt="logo" />
-                </ImageContainer>
-                <ContentContainer>
-                  <p className="title">Frontend Developer</p>
-                </ContentContainer>
-              </CategoryChipWrapper>
-            </CategoryChipContainer>
+            <Link to="" className="link">
+              <CategoryChipContainer>
+                <CategoryChipWrapper>
+                  <ImageContainer>
+                    <img src={frontendLogo} alt="logo" />
+                  </ImageContainer>
+                  <ContentContainer>
+                    <p className="title">Frontend Developer</p>
+                  </ContentContainer>
+                </CategoryChipWrapper>
+              </CategoryChipContainer>
+            </Link>
           </CategoryContainer>
         </BrowseContainer>
       </BrowseWrapper>
