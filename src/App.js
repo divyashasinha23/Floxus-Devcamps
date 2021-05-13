@@ -6,6 +6,7 @@ import USPSection from './components/USPSection/USPSection.js';
 import DataStructure from './components/DataStructure/DataStructure';
 import SystemDesign from './components/SystemDesign/SystemDesign';
 import Banner from './components/Banners/Banner';
+import BrowseSection from './components/BrowseSection/BrowseSection';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Switch>
           <Route path="/" exact>
             <HeroSection />
+            <BrowseSection />
             <USPSection />
             <Banner />
           </Route>
