@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import  {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const CardContainer = styled.div`
   width: 300px;
@@ -12,7 +12,7 @@ const CardContainer = styled.div`
   margin-top: 40px;
   flex-flow: row wrap;
   background-color: #fff;
-  border: 1px solid #D3D4D6;
+  border: 1px solid #d3d4d6;
 `;
 
 const CardItem = styled.div`
@@ -36,7 +36,7 @@ const CardItem = styled.div`
   .description {
     text-align: center;
     width: 85%;
-    color: #827FA5;
+    color: #827fa5;
     font-size: 12px;
     margin-bottom: 20px;
   }
@@ -45,12 +45,11 @@ const CardItem = styled.div`
     width: 100px;
   }
 
-
   .btn {
     width: 200px;
     height: 40px;
     margin-bottom: 20px;
-    background-color: #8155FF;
+    background-color: #8155ff;
     color: #ffff;
     font-size: 15px;
     border: none;
@@ -58,7 +57,6 @@ const CardItem = styled.div`
 
     @media (max-width: 590px) {
       width: 150px;
-      
     }
   }
 `;
@@ -68,12 +66,12 @@ function Card(props) {
     <>
       <CardContainer>
         <CardItem>
-          <img className="image_icon" src= {props.image} alt="resouces_icon"/>
+          <img className="image_icon" src={props.image} alt="resouces_icon" />
           <h1 className="Heading">{props.label}</h1>
           <p className="description">{props.description}</p>
-          <Link to={props.url}>
-          <button className="btn">EXPLORE</button>
-          </Link>
+          <a href={props.url} style={{ cursor: 'pointer' }}>
+            <button className="btn">EXPLORE</button>
+          </a>
         </CardItem>
       </CardContainer>
     </>

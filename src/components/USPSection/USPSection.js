@@ -18,7 +18,7 @@ const USPContainer = styled.div`
     align-items: center;
 
     img {
-      height: 70%;
+      height: 60%;
     }
   }
 
