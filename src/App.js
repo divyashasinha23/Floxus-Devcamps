@@ -7,6 +7,7 @@ import DataStructure from './components/DataStructure/DataStructure';
 import SystemDesign from './components/SystemDesign/SystemDesign';
 import Banner from './components/Banners/Banner';
 import BrowseSection from './components/BrowseSection/BrowseSection';
+import CommunitySection from './components/CommunitySection/CommunitySection';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <BrowseSection />
             <USPSection />
             <Banner />
+            <CommunitySection />
           </Route>
 
           <Route path="/data-structures" exact>
