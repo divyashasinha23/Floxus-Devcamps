@@ -85,9 +85,8 @@ const USPSection = () => {
             Resources crafted by Developers for developers{' '}
           </p>
           <p className="description">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
-            elitr, sed diam nonumy eirmod.
+          Learning Resources crafted  by Domain Experts to make you
+          industry Ready and for a fast paced career growth.
           </p>
         </div>
       </USPContainer>

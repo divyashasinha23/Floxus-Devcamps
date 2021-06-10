@@ -62,6 +62,8 @@ const HeroContent = styled.div`
 
   .description {
     text-align: center;
+    font-size: 16px;
+    font-weight: bold;
   }
 
   @media (max-width: 496px) {
@@ -87,9 +89,7 @@ const HeroSection = () => {
         <HeroContent>
           <p className="heading">Learn with Curated Resources</p>
           <p className="description">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod. Lorem ipsum dolor sit amet, consetetur sadipscing
-            elitr, sed diam nonumy eirmod.
+          Experience the Best, from the Best, for the Best
           </p>
         </HeroContent>
         <PolygonContainer>
