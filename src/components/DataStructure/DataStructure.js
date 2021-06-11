@@ -39,6 +39,7 @@ function DataStructure() {
         <ResourceDetail>
           <Card
             image={learnicon}
+            active="true"
             url="https://www.notion.so/eaae183a11e04aac8e6361a9e0e67908?v=a7908fc7c70b4f5d86bb12cedce9a687"
             label="LEARN"
             description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
@@ -46,6 +47,7 @@ function DataStructure() {
           />
           <Card
             image={interviewicon}
+            active="false"
             url="coming-soon"
             label="INTERVIEW PREPARATION"
             description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam

@@ -36,13 +36,16 @@ function FrontendDev() {
         <ResourceDetail>
           <Card
             image={learnicon}
+            active="true"
             url="https://www.notion.so/b3f74abbe8e94926adfb538aab64abc7?v=cdc716d74d7c48c5a8430ecea704587c"
             label="LEARN"
             description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod."
           />
+
           <Card
             image={interviewicon}
+            active="false"
             url="coming-soon"
             label="INTERVIEW PREPARATION"
             description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam

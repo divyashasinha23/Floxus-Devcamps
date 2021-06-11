@@ -69,9 +69,15 @@ function Card(props) {
           <img className="image_icon" src={props.image} alt="resouces_icon" />
           <h1 className="Heading">{props.label}</h1>
           <p className="description">{props.description}</p>
-          <a href={props.url} style={{ cursor: 'pointer' }}>
-            <button className="btn">EXPLORE</button>
-          </a>
+          {props.active == 'true' ? (
+            <a href={props.url} style={{ cursor: 'pointer' }}>
+              <button className="btn">EXPLORE</button>
+            </a>
+          ) : (
+            <Link to="/coming-soon" style={{ cursor: 'pointer' }}>
+              <button className="btn">EXPLORE</button>
+            </Link>
+          )}
         </CardItem>
       </CardContainer>
     </>
