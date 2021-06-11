@@ -37,7 +37,7 @@ const CardItem = styled.div`
     text-align: center;
     width: 85%;
     color: #827fa5;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 20px;
   }
 

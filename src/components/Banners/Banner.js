@@ -64,6 +64,7 @@ const BannerContent = styled.div`
     }
     .description {
       font-size: 15px;
+      margin-right: 10px;
     }
   }
 
@@ -125,9 +126,9 @@ const Banner = () => {
                   <img src={Logo} alt="logo" />
                 </div>
                 <p className="description">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod. Lorem ipsum dolor sit amet, consetetur
-                  sadipscing elitr, sed diam nonumy eirmod.
+                  We are a team of passionate learners , education
+                  enthusiasts and helping millennials  build 
+                  21st century skills, to upgrade their career..
                 </p>
               </div>
               <div className="right">

@@ -39,8 +39,7 @@ function FrontendDev() {
             active="true"
             url="https://www.notion.so/b3f74abbe8e94926adfb538aab64abc7?v=cdc716d74d7c48c5a8430ecea704587c"
             label="LEARN"
-            description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod."
+            description="Handcrafted learning resources to help you design the best interactive UI"
           />
 
           <Card
@@ -48,8 +47,7 @@ function FrontendDev() {
             active="false"
             url="coming-soon"
             label="INTERVIEW PREPARATION"
-            description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod."
+            description="All that you need to ace the most complex of interviews"
           />
         </ResourceDetail>
       </ResourceContainer>

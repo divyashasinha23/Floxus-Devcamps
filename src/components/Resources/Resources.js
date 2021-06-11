@@ -37,6 +37,7 @@ object-fit: contain;
     width: 50%;
     color: #827FA5;
     font-size: 15px;
+    font-weight: bold;
 
     @media (max-width: 496px) {
       width: 65%;
