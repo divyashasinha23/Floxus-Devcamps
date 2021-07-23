@@ -87,9 +87,9 @@ const HeroSection = () => {
           <img className="polygon1" src={Polygon1} alt="pattern1" />
         </PolygonContainer>
         <HeroContent>
-          <p className="heading">Learn with Curated Resources</p>
+          <p className="heading">Learn with Handpicked Resources</p>
           <p className="description">
-          Experience the Best, from the Best, for the Best
+            Experience the Best, from the Best, for the Best
           </p>
         </HeroContent>
         <PolygonContainer>

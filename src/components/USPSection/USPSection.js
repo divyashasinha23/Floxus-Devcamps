@@ -82,11 +82,11 @@ const USPSection = () => {
         </div>
         <div className="right">
           <p className="heading">
-            Resources crafted by Developers for developers{' '}
+            Resources Handpicked by Developers for developers{' '}
           </p>
           <p className="description">
-          Learning Resources crafted  by Domain Experts to make you
-          industry Ready and for a fast paced career growth.
+            Learning Resources crafted by Domain Experts to make you industry
+            Ready and for a fast paced career growth.
           </p>
         </div>
       </USPContainer>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import DevcampLogo from '../../images/mainLogo.png';
+import DevcampLogo from '../../images/devkamp.png';
 
 const NavbarWrapper = styled.div`
   display: flex;

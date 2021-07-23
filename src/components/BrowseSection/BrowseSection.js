@@ -83,7 +83,7 @@ const CategoryChipWrapper = styled.div`
 const ImageContainer = styled.div`
   display: flex;
   flex-basis: 20%;
-  height: 100%;
+  height: 95%;
   justify-content: center;
   align-items: center;
 
