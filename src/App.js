@@ -9,6 +9,7 @@ import Banner from './components/Banners/Banner';
 import BrowseSection from './components/BrowseSection/BrowseSection';
 import CommunitySection from './components/CommunitySection/CommunitySection';
 import EmptyStatePage from './components/EmptyStatePage/EmptyStatePage';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -22,17 +23,21 @@ function App() {
             <USPSection />
             <Banner />
             <CommunitySection />
+            <Footer />
           </Route>
 
           <Route path="/data-structures" exact>
             <DataStructure />
+            <Footer />
           </Route>
 
           <Route path="/frontend-dev" exact>
             <SystemDesign />
+            <Footer />
           </Route>
           <Route path="/coming-soon" exact>
             <EmptyStatePage />
+            <Footer />
           </Route>
         </Switch>
       </Router>

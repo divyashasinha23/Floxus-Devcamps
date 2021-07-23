@@ -29,15 +29,15 @@ function FrontendDev() {
       <ResourceContainer>
         <Resources
           Heading="Frontend Dev Resources"
-          Description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-        nonumy eirmod. Lorem ipsum dolor sit amet se"
+          Description="The finest Frontend Development resources you can experience.
+          Brought to your disposal by floxus"
         />
 
         <ResourceDetail>
           <Card
             image={learnicon}
             active="true"
-            url="https://www.notion.so/b3f74abbe8e94926adfb538aab64abc7?v=cdc716d74d7c48c5a8430ecea704587c"
+            url="https://whip-cocoa-1a4.notion.site/b3f74abbe8e94926adfb538aab64abc7?v=cdc716d74d7c48c5a8430ecea704587c"
             label="LEARN"
             description="Handcrafted learning resources to help you design the best interactive UI"
           />

@@ -126,9 +126,9 @@ const Banner = () => {
                   <img src={Logo} alt="logo" />
                 </div>
                 <p className="description">
-                  We are a team of passionate learners , education
-                  enthusiasts and helping millennials  build 
-                  21st century skills, to upgrade their career..
+                  We are a team of passionate learners and education enthusiasts
+                  working to help millennials build 21st-century skills to
+                  upgrade their careers.
                 </p>
               </div>
               <div className="right">

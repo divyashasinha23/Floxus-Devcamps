@@ -34,7 +34,7 @@ function DataStructure() {
         <Resources
           Heading="DATA STRUCTURES RESOURCES"
           Description="The finest DS and algo resources you can experience.
-          Brought to your disposal- the finest DS and algo resources.
+          Brought to your disposal by floxus.
           "
         />
         <ResourceDetail>

@@ -82,9 +82,9 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="rightNav">
-            <a href="https://www.notion.so/Contribute-350d7244938146e9a8aadb3cd1074204">
+            {/* <a href="https://www.notion.so/Contribute-350d7244938146e9a8aadb3cd1074204">
               <p>Contribute</p>
-            </a>
+            </a> */}
             <a href="https://discord.gg/PV5f6aqA2w">
               <Button>Join Community</Button>
             </a>
